@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {  
+    background-color: orange;
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    font-size: 30px;
+}
+
+a {
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: 'Rubik Iso', cursive;
+    color: #ffffff;  
+}
+
+#destaques {
+    background-color: red;
+    width: 100vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: fixed;
+}
+
+#destaques-principais {
+    display: flex;
+    font-family: 'Rubik Iso', cursive;
+    color: #ffffff;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+#img-prin {
+    display: flex;
+    justify-content: space-around;
+}
+
+#destaques img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#produtos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin-top: 17%;
+    background-image: url('../IMG/tempaltesDivConteudo.jpg');
+    background-size: contain;
+   
+}
+div.conteudo {
+    background-color: darkorange;
+    width: 350px;
+    margin: 20px;
+    border-radius: 20px;
+   
+}
+
+img.conteudo {
+   width: 350px;
+   height: 350px;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.infos {
+    margin: 8px; 
+}
+
+.infos-descri {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.infors-preco {
+    display: flex;
+    margin-top: 35px;
+    color: lightblue;
+    font-size: 2rem;
+    justify-content: right;
+}
+
+
+
