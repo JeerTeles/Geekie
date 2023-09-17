@@ -40,7 +40,7 @@
 @media screen and (max-width: 1224px) and (min-width: 700px) {
     div#produtos {
         display: grid;
-        grid-template-columns:  1fr 1fr;  
+        grid-template-columns:  1fr 1fr 1fr;  
         gap: 0px;
     }
 
@@ -91,11 +91,10 @@
     }
 }
 
-@media screen and (max-width: 520px) and (min-width: 10px){
+@media screen and (max-width: 520px) {
     div#produtos {
         display: grid;
-        grid-template-columns:  1fr; 
-        grid-template-columns: repeat(9, 1fr);   
+        grid-template-columns:  1fr;   
     }
 
     div.conteudo {
