@@ -68,31 +68,34 @@ a:hover {
 #produtos {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 30px;
-    margin-top: 17%;
+    gap: 10px;
+    margin-top: 18%;
     background-image: url('../IMG/tempaltesDivConteudo.jpg');
     background-size: contain;
-   
 }
+
 div.conteudo {
     background-color: darkorange;
-    width: 350px;
+    width: 300px;
     margin: 20px;
+    margin-top: 40px;
     border-radius: 20px;
    
 }
 
 img.conteudo {
-   width: 350px;
-   height: 350px;
+   width: 300px;
+   height: 300px;
    border-radius: 20px 20px 0px 0px;
 }
 
 .infos {
     margin: 8px; 
+    max-height: 400px;
 }
 
 .infos-descri {
+    
     font-family: 'Annie Use Your Telescope', cursive;
     font-size: 1.4rem;
     color: #ffffff;
@@ -102,7 +105,7 @@ img.conteudo {
 
 .infors-preco {
     display: flex;
-    margin-top: 35px;
+    margin-top: 5px;
     color: lightblue;
     font-size: 2rem;
     justify-content: right;
