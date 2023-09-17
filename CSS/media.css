@@ -90,7 +90,7 @@
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) and (min-width: 10px){
     div#produtos {
         display: grid;
         grid-template-columns:  1fr;  
