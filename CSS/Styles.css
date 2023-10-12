@@ -14,6 +14,12 @@ body {
     background-size: contain;
 }
 
+body#cadastro {
+    background-image: url('../IMG/tempaltesDivConteudo.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
 nav {  
     background-color: orange;
     height: 40px;
@@ -70,6 +76,16 @@ a:hover {
     border-radius: 50%;
 }
 
+.img-destaques {
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in;
+}
+
+.img-destaques:hover {
+    -webkit-transform: scale(1.2);
+}
+
+
 #produtos {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -118,6 +134,18 @@ img.conteudo {
     font-size: 2rem;
     justify-content: right;
 }
+
+ /* page cadastro */
+
+ form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+
 
 
 

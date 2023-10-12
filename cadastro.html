@@ -3,58 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Pagina De Cadastro</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <link rel="stylesheet" href="CSS/Styles.css">
+<link rel="stylesheet" href="CSS/media.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Onde.html">Localização</a>
-              </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cadastro.html">Cadastro</a>
-            </li>
-            </ul>
-            <img src="IMG/459x130xlogo_geekie_rgb_alta-pagespeed-ic-a1pj29-d10.png" alt="100px" width="150px" height="50px">
-          </div>
-        </div>
-      </nav>
-            
-        <div class="container">    
-            <form action="termos.html">
-                <div class="mb-3">
-                    <label for="NomedaPessoa" class="form-la">Nome Completo</label>
-                    <input type="text" class="form-control" id="NomedaPessoa">
-                   
-                
-                    
-
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="btn btn-primary" value="Vai" onclick="Capturar()">Cadastrar</button>
-                <p class="form-text" id="Pegar"></p>
-              </form>
-            </div>
-      <script src="JS/Script.js"></script>
-
-      
+<body id="cadastro">        
+  <nav>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Onde.html">Localização</a>
+      </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="cadastro.html">Cadastro</a>
+    </li>
+    </ul>
+  </nav>
+    <form>
+      <div id="formulario">
+        <label>Email</label>
+        <input type="email">
+        <label>Senha</label>
+        <input type="password">
+        <button type="submit">Cadastrar</button>
+      </div>
+    </form>     
 </body>
 </html>
